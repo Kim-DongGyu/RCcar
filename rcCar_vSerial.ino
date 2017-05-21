@@ -1,14 +1,12 @@
-#include <Servo.h>
+#include <SoftwarwSerial.h>
 
-#define ENABLEPIN 5
-#define SERVOPIN 8
-#define DCPIN_P 9
-#define DCPIN_M 10
+int A_1A = 6;
+int A_1B = 11;
+int B_1A = 3;
+int B_1B = 5;
 
-Servo servo;
-int input;
-int angle;
-int speeds;
+int btRxPin = 12;
+int btTxPin = 13;
 
 void setup()
 {
