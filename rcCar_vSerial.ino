@@ -4,7 +4,7 @@
 
 int btRxPin = 12;
 
-int btTxPin = 13;
+int btTxPin = 14;
 
 
 
